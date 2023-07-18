@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navvv{
+    z-index: 9999999;
+    background-color: white;
+}
+.homeCaption{
+    margin-top: 180px;
+}
+.nav-item{
+    margin-right: 30px;
+    font-weight: 700;
+}
+.navbar-brand{
+    font-weight:900 ;
+    color: #0d6efd;
+}
+.navbar-brand span{
+    color: black;
+}
+.caption h1{
+    font-size: 70px;
+}
+.caption span{
+    color: #0d6efd;
+}
+.caption button{
+    width: 150px;
+    margin-right: 15px;
+}
+.captionImg{
+ 
+    margin: auto;
+    width: 400px;
+    height:400px;
+    background-image: linear-gradient(30deg,#0d6efd 0%, #0d6efd 50% ,#e6e3e3 50%,#e6e3e3 100%);
+    border-radius: 100% ;
+    overflow: hidden;
+
+}
+.captionImg img {
+   width: 650px;
+   position: relative;
+   right: 120px;
+}
+.circle1{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(185, 199, 237);
+    position: relative;
+    top: -300px;
+    right: -410px;
+}
+.circle2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:#0d6efd;
+    position: relative;
+    top: -80px;
+    right: -120px;
+   
+}
+.circle3{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color:#c3d0e3;
+    position: relative;
+    top: -30px;
+    right: 480px;
+   
+}
+.numIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 7px;
+    margin-right: 15px;
+    background-color: white;
+    
+}
+.numIcon i{
+    font-size: 45px;
+
+}
+.numCaption h3{
+    font-weight:bolder;
+    color: #0d6efd;
+}
+.fa-address-card{
+    color: orange;
+}
+.fa-users{
+    color: palevioletred;
+}
+.allNum{
+    background-color: rgb(240, 237, 237);
+}
+.num{
+    transition: all .5s;
+}
+.num:hover{
+    transform: scale(1.2);
+}
+.FeaturesCaption h2{
+    font-weight: bolder;
+}
+.categoryIcon{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+}
+.color1{
+    background-color: #cee1ff;
+    color: #0d6efd;
+}
+.color2{
+    background-color: #29018e;
+    color: white;
+}
+.color3{
+    background-color: rgb(255, 240, 213);
+    color:orange;
+}
+.color4{
+    background-color: rgb(255, 226, 226);
+    color: red;
+}
+.color5{
+    background-color:rgb(255, 199, 255);
+    color: purple;
+}
+.color6{
+    background-color: rgb(197, 255, 226);
+    color: rgb(43, 136, 9);
+}
+.categoryCaption h5{
+    font-weight: bolder;
+    font-size: 27px;
+}
+.category{
+    box-shadow: 0px 0px 19px 2px #dedada;
+    transition: all .5s;
+}
+.category:hover{
+    transform: scale(1.1);
+}
+.cardImg{
+    width: 100%;
+    height: 300px;
+}
+.user,.star,.dolar{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
+.user{
+    background-color: #dae7fa;
+    color: #0d6efd;
+}
+.star{
+    background-color: rgb(248, 239, 192);
+    color: gold;
+}
+.dolar{
+    background-color: rgb(252, 214, 238);
+    color: purple;
+    
+}
+.card{
+    margin-top: 20px;
+    box-shadow: 0px 0px 19px 2px #dedada;
+    transition: all .5s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card a{
+    margin-top: 10px;
+}
+.iconCarosel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #0d6efd;
+    color: white;
+}
+.man{
+    width: 70px;
+    height: 70px;
+    background-color:#0d6efd;
+    color: white;
+    font-size: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.stars i{
+    font-size: 22px;
+    color: gold;
+
+}
+.caroseLCaption{
+    box-shadow: 0px 0px 19px 2px #dedada;
+    transition: all .5s;
+
+}
+.caroseLCaption:hover{
+    background-color: #0d6efd;
+    color: white;
+}
+.caroseLCaption:hover .man{
+    background-color: white;
+    color: #0d6efd;
+}
+.caroseLCaption:hover .iconCarosel{
+    background-color: white;
+    color: #0d6efd;
+}
+.SubCaption h2{
+    font-weight: bolder;
+}
+.subInput button{
+    position: relative;
+    left: -20px;
+}
+.footerName span{
+    color: black;
+}
+.footer, footer{
+    background-color: #ededed;
+}
